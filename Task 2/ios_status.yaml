@@ -12,9 +12,14 @@
   - name: DISPLAYING INTERFACES
     ios_command:
       commands:
-      - show version
+      - show interfaces
+
   - name: CLEARING COUNTERS
     ios_command:
       commands:
-      - clear counters g0/1
-      - y
+      - command: clear counters
+        prompt: Clear "show interface" counters on all interfaces [confirm]
+        answer: y
+
+
+        
