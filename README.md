@@ -18,11 +18,11 @@ Task implementation: Creating dockerfile, creating container and running it
 Task troubleshooting: None
 Task verification: Surfing to the localhost and port
 
-Task name: Docker
-Task preparation: Installing docker
-Task implementation: Creating dockerfile, creating container and running it
+Task name: Jenkins
+Task preparation: Installing jenkins
+Task implementation: Creating build, test and pipeline
 Task troubleshooting: None
-Task verification: Surfing to the localhost and port
+Task verification: Running the pipeline
 
 Task name: Webex teams
 Task preparation: Making a webex account
